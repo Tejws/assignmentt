@@ -1,0 +1,125 @@
+/* Wrapper for the entire editor */
+.editor-wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 16px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title and subtitle styling */
+  .editor-title {
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .editor-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  /* Button container and buttons */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  
+  .btn {
+    padding: 10px 16px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .info-btn {
+    background-color: #007bff;
+  }
+  
+  .info-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .warning-btn {
+    background-color: #ffc107;
+  }
+  
+  .warning-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  .clear-btn {
+    background-color: #dc3545;
+  }
+  
+  .clear-btn:hover {
+    background-color: #b21f2d;
+  }
+  
+  /* Editor container */
+  .editor-container {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    min-height: 200px;
+    text-align: left;
+  }
+  
+  /* Styling for custom alert blocks */
+  [data-type="custom-alert"] {
+    margin: 16px 0;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  [data-type="custom-alert"][type="info"] {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+  }
+  
+  [data-type="custom-alert"][type="warning"] {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+  }
+  /* Dropdown styling */
+.alert-type-selector {
+  padding: 10px 16px;
+  font-size: 14px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.alert-type-selector:focus {
+  border-color: #007bff;
+}
+
+/* Add Alert Button */
+.add-alert-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.add-alert-btn:hover {
+  background-color: #0056b3;
+}
